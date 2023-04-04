@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -13,7 +15,7 @@
   }
 }
 
-.App-header {
+.counter {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,6 +25,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.btn__container button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  box-sizing: content-box;
+  width: 100%;
+  border: solid black 3px;
+  padding: 5px;
+
+}
+
 
 .App-link {
   color: #61dafb;
